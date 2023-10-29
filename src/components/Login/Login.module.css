@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #161D2F;
+    width: 400px;
+    height: 373px;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.loginTitle {
+    color: white;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.loginText {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.signUpText {
+    color: #FC4747;
+    cursor: pointer;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}

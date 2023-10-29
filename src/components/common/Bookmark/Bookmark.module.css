@@ -1,0 +1,21 @@
+.stylesBookmark {
+  cursor: pointer;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  background-color: #10141E;
+  opacity: 0.5;
+}
+
+.stylesBookmark:hover {
+  background-color: #fff;
+  opacity: 1;
+
+}
+
+.stylesBookmark:hover > svg > path {
+  stroke: #10141E;
+}
+
+

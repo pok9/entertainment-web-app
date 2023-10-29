@@ -1,0 +1,15 @@
+.buttonStyle {
+    background: #FC4747;
+    border-radius: 6px;
+    color: white;
+    font-weight: 300;
+    line-height: nomal;
+    height: 48px;
+    width: 336px;
+    cursor: pointer;
+}
+
+.buttonStyle:hover {
+    background: #fff;
+    color: #161D2F;
+}

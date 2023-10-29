@@ -1,0 +1,72 @@
+.cardContainer {
+  display: flex;
+  gap: 16px;
+  padding-bottom: 16px;
+  margin-right: 132px;
+  overflow-x: auto;
+}
+
+.card {
+  position: relative;
+  flex: 0 0 auto;
+  width: 470px;
+  height: 230px;
+  background-color: white;
+  border-radius: 10px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.searchInput {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  padding-bottom: 15px;
+  margin-bottom: -15px;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-bottom: 1px solid #5A698F;
+}
+
+.bookmarkContainer {
+  width: 100%;
+  margin: 32px 0 0 36px
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 35px;
+  height: 30px;
+  margin-right: 10%;
+}
+
+.container {
+  margin-bottom: 52px;
+  overflow-x: auto;
+  overflow-y: hidden
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 32px;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 40px;
+  row-gap: 32px;
+}
