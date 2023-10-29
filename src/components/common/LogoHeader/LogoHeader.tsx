@@ -1,4 +1,4 @@
-import logo from '../../../assets/logo.svg'
+import logo from '/assets/logo.svg'
 import styles from './LogoHeader.module.css'
 const LogoHeader = () => {
   return (

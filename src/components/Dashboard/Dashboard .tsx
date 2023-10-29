@@ -6,8 +6,8 @@ import IconNavHome from "../common/IconComponents/IconNavHome"
 import IconNavMovies from "../common/IconComponents/IconNavMovies"
 import IconNavTvSeries from "../common/IconComponents/IconNavTvSeries"
 import IconNavBookmark from "../common/IconComponents/IconNavBookmark"
-import logo from '../../assets/logo.svg'
-import imageAvatar from '../../assets/image-avatar.png'
+import logo from '/assets/logo.svg'
+import imageAvatar from '/assets/image-avatar.png'
 import { Outlet, useLocation, useNavigate } from "react-router-dom"
 import { Routes } from "../../routes/routes"
 
